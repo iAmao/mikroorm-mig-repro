@@ -36,10 +36,10 @@ const ormConfig: Options = {
 	forceUtcTimezone: true,
 	migrations: {
 		tableName: 'migrations',
-		path: `${CWD}/migrations`,
+		path: `${CWD}/src/migrations`,
 		transactional: true,
 		emit: 'ts',
-		pattern: /^[\w-]+\d+\.js$/
+		pattern: /^[\w-]+\d+\.ts$/
 	},
 	cache: {
 		pretty: true,

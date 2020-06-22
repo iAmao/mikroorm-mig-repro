@@ -11,15 +11,12 @@
     "test:dev": "export NODE_ENV=test && jest --watch"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/denaro-eng/exchange-markets.git"
+    "type": "git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/denaro-eng/exchange-markets/issues"
-  },
+  "bugs": {},
   "mikro-orm": {
     "useTsNode": true,
     "configPaths": [
@@ -27,7 +24,6 @@
       "./src/orm/orm.config.ts"
     ]
   },
-  "homepage": "https://github.com/denaro-eng/exchange-markets#readme",
   "dependencies": {
     "@nexus/schema": "^0.14.0",
     "@types/async": "^3.2.3",
