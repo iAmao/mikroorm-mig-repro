@@ -1,7 +1,7 @@
 {
   "name": "exchange-markets",
   "version": "1.0.0",
-  "description": "Data/Service engine for managing exchange markets",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "export NODE_ENV=development && nodemon",
