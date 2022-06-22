@@ -29,7 +29,7 @@
     "@types/async": "^3.2.3",
     "@types/faker": "^4.1.12",
     "apollo-server": "^2.15.0",
-    "async": "^3.2.0",
+    "async": "^3.2.2",
     "dotenv": "^8.2.0",
     "graphql": "^15.1.0",
     "graphql-depth-limit": "^1.1.0",
